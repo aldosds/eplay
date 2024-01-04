@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import { HeaderBar, LInkItem, LinkCart, Links } from './styles'
 
 import logo from '../../assets/images/logo.svg'
@@ -10,7 +12,7 @@ const Header = () => (
       <nav>
         <Links>
           <LInkItem>
-            <a href="#">Categorias</a>
+            <Link to="/categories">Categorias</Link>
           </LInkItem>
           <LInkItem>
             <a href="#">Novidades</a>
